@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    xmlns:app="http://schemas.huawei.com/hap/res-auto"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#000000">
+    <de.hdodenhof.circleimageview.CircleImageView
+        ohos:id="$+id:tempciv"
+        ohos:height="290vp"
+        ohos:width="290vp"
+        ohos:image_src="$media:Lighthouse"
+        ohos:orientation="vertical"
+        ohos:layout_alignment="center"
+        ohos:top_padding="10vp"
+        app:civ_border_width="4vp"
+        app:civ_color="#000000"
+        app:civ_bg_color="#FF0000"/>
+</DirectionalLayout>
